@@ -1,0 +1,35 @@
+*DataBase codes:
+
+[creating database]:
+ create database qms;
+
+[using database]:
+ use qms;
+
+[creating a table for question]:
+ create table question(id varchar(10), name varchar(500), opt1 varchar(500), op2 varchar(500), opt3 varchar(500), opt4 varchar(500), answer varchar(500));
+
+[checking description]:
+ desc question;
+
+[check information]
+ select *from student;
+ select *from question;
+
+
+
+
+
+
+
+create table student(rollNo varchar(8),
+    name varchar(100),
+    fatherName varchar(100),
+    motherName varchar(100),
+    gender varchar(50),
+    contactNo varchar(20),
+    email varchar(100),
+    address varchar(500),
+    department varchar(50),
+    section int(10),
+    marks int(5));
